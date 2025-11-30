@@ -1,0 +1,62 @@
+[build]
+  publish = "."
+
+# Redirect hidden paths to 404
+[[redirects]]
+  from = "/_development_files/*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/.claude/*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/data/*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/CLAUDE.md"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/*.py"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/*.php"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/requirements.txt"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/*.csv"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/.env*"
+  to = "/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/.gitignore"
+  to = "/404.html"
+  status = 404
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
