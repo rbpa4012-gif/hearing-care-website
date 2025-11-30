@@ -1,0 +1,741 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cleaning and pool service template | Vecuro | Service</title>
+    <meta name="author" content="Vecuro">
+    <meta name="description" content="Cleaning and pool service template">
+    <meta name="keywords" content="Cleaning and pool service template">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--==============================
+	  Google Fonts
+	============================== --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animate js -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+
+    <!--==============================
+	Preloader
+	==============================-->
+    <div class="preloader">
+        <button class="vs-btn preloaderCls">Cancel Preloader </button>
+        <div class="preloader-inner">
+        <img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care">
+        <span class="loader"></span>
+        <p class="preloader-text">Hearing Care is loading</p>
+        </div>
+    </div>
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area text-center">
+            <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care"></a>
+            </div>
+            <div class="vs-mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="service.html">Hearing Services</a>
+                        <ul class="sub-menu">
+                            <li><a href="service.html">All Services</a></li>
+                            <li><a href="service-details.html">Hearing Aid Fittings and Adjustments</a></li>
+                            <li><a href="service-details.html">Hearing Protection</a></li>
+                            <li><a href="service-details.html">Tinnitus Management</a></li>
+                            <li><a href="service-details.html">Comprehensive Hearing Assessments for Adults</a></li>
+                            <li><a href="service-details.html">Screening Tests</a></li>
+                            <li><a href="service-details.html">Hearing Aid Repairs and Maintenance</a></li>
+                            <li><a href="service-details.html">Custom Earplugs</a></li>
+                            <li><a href="service-details.html">Workplace Hearing Tests</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="booking.html">Book an Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Popup Search Box
+    ============================== -->
+    <div class="popup-search-box d-none d-lg-block  ">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+        <input type="text" class="border-theme" placeholder="What are you looking for">
+        <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+    <!--==============================
+    Header Area
+    ==============================-->
+    <header class="vs-header header-layout1">
+        <div class="header-top">
+            <div class="main-container2">
+                <div class="row justify-content-md-between justify-content-center align-items-center">
+                    <div class="col-auto d-md-block d-none">
+                        <div class="header-links">
+                            <ul>
+                                <li><i class="far fa-envelope"></i><a href="mailto:info@hearingcare.au">info@hearingcare.au</a></li>
+                                <li class="d-lg-inline d-none"><i class="far fa-clock"></i>Monday - Friday 8:30 AM - 4:30 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-style1">
+                            <span class="social-title">Follow Us On :</span>
+                            <div class="social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="sticky-active">
+                <div class="menu-area">
+                    <div class="main-container2">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care" width="250" height="40">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <nav class="main-menu menu-style1 d-none d-lg-block">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="service.html">Hearing Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="service.html">All Services</a></li>
+                                                <li><a href="service-details.html">Hearing Aid Fittings and Adjustments</a></li>
+                                                <li><a href="service-details.html">Hearing Protection</a></li>
+                                                <li><a href="service-details.html">Tinnitus Management</a></li>
+                                                <li><a href="service-details.html">Comprehensive Hearing Assessments for Adults</a></li>
+                                                <li><a href="service-details.html">Screening Tests</a></li>
+                                                <li><a href="service-details.html">Hearing Aid Repairs and Maintenance</a></li>
+                                                <li><a href="service-details.html">Custom Earplugs</a></li>
+                                                <li><a href="service-details.html">Workplace Hearing Tests</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="booking.html">Book an Appointment</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-auto d-lg-none">
+                                <button class="vs-menu-toggle d-inline-block">
+                                    <i class="fal fa-bars"></i>                                           
+                               </button>
+                            </div>
+                            <div class="col-auto d-lg-block d-none">
+                                <div class="header-inner">
+                                    <div class="header-icons">
+                                        <button class="searchBoxTggler"><i class="fal fa-search"></i></button>
+                                        <a class="icon-btn" href="#"><i class="fa-solid fa-phone"></i></a>
+                                    </div>
+                                    <div class="contact-content">
+                                        <p class="contact-text" style="color: #509ED8;">Call Us Today</p>
+                                        <h6 class="contact-title"><a href="tel:+61752234444" style="color: #509ED8;">(07) 5223 4444</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--********************************
+			Start Main Content
+	  ******************************** -->
+        <!--==============================
+        Breadcumb
+        ============================== -->
+        <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+            <div class="container z-index-common">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">our <span>service</span></h1>
+                </div>
+                <div class="breadcumb-menu-wrap">
+                    <ul class="breadcumb-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li>our service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Service Area  -->
+         <section class="vs-service__layout1 bg-linear space position-relative">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="title-area text-center wow animate__fadeInUp title-anime animation-style5" data-wow-delay="0.25s">
+                            <span class="sec-subtitle justify-content-center title-anime__title"> HEARING CARE SERVICE</span>
+                            <h2 class="sec-title title-anime__title">Our Excellent Service</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row vs-carousel" data-slide-show="4" data-ml-slide-show="3" data-lg-slide-show="3" data-md-slide-show="2" data-autoplay="true" data-arrows="true">
+                    <div class="col-lg-3 wow animate__fadeInUp" data-wow-delay="0.25s">
+                        <div class="vs-service__style1">
+                            <div class="vs-service__img">
+                                <a href="service.html">
+                                    <img src="assets/img/service/service-img-1-1.jpg" alt="Serevice Image">
+                                </a>
+                            </div>
+                            <div class="vs-service__body">
+                                <div class="vs-service__header">
+                                    <div class="vs-service__content">
+                                        <p class="vs-service__subtitle">cleaning  01</p>
+                                        <h2 class="vs-service__title h6"><a href="service.html">home service</a></h2>
+                                    </div>
+                                    <div class="vs-service__icon">
+                                        <img src="assets/img/icon/service-icon-1-1.svg" alt="Service Icon">
+                                    </div>
+                                </div>
+                                <p class="vs-service__text">aweep & mopsd vacuum floor House Cleaners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow animate__fadeInUp" data-wow-delay="0.45s">
+                        <div class="vs-service__style1">
+                            <div class="vs-service__img">
+                                <a href="service.html">
+                                    <img src="assets/img/service/service-img-1-2.jpg" alt="Serevice Image">
+                                </a>
+                            </div>
+                            <div class="vs-service__body">
+                                <div class="vs-service__header">
+                                    <div class="vs-service__content">
+                                        <p class="vs-service__subtitle">cleaning  01</p>
+                                        <h2 class="vs-service__title h6"><a href="service.html">Kitchen Clean</a></h2>
+                                    </div>
+                                    <div class="vs-service__icon">
+                                        <img src="assets/img/icon/service-icon-1-2.svg" alt="Service Icon">
+                                    </div>
+                                </div>
+                                <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow animate__fadeInUp" data-wow-delay="0.65s">
+                        <div class="vs-service__style1">
+                            <div class="vs-service__img">
+                                <a href="service.html">
+                                    <img src="assets/img/service/service-img-1-3.jpg" alt="Serevice Image">
+                                </a>
+                            </div>
+                            <div class="vs-service__body">
+                                <div class="vs-service__header">
+                                    <div class="vs-service__content">
+                                        <p class="vs-service__subtitle">cleaning  01</p>
+                                        <h2 class="vs-service__title h6"><a href="service.html">Purification</a></h2>
+                                    </div>
+                                    <div class="vs-service__icon">
+                                        <img src="assets/img/icon/service-icon-1-3.svg" alt="Service Icon">
+                                    </div>
+                                </div>
+                                <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow animate__fadeInUp" data-wow-delay="0.85s">
+                        <div class="vs-service__style1">
+                            <div class="vs-service__img">
+                                <a href="service.html">
+                                    <img src="assets/img/service/service-img-1-4.jpg" alt="Serevice Image">
+                                </a>
+                            </div>
+                            <div class="vs-service__body">
+                                <div class="vs-service__header">
+                                    <div class="vs-service__content">
+                                        <p class="vs-service__subtitle">cleaning  01</p>
+                                        <h2 class="vs-service__title h6"><a href="service.html">Bed & Mattres</a></h2>
+                                    </div>
+                                    <div class="vs-service__icon">
+                                        <img src="assets/img/icon/service-icon-1-4.svg" alt="Service Icon">
+                                    </div>
+                                </div>
+                                <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow animate__fadeInUp" data-wow-delay="0.25s">
+                        <div class="vs-service__style1">
+                            <div class="vs-service__img">
+                                <a href="service.html">
+                                    <img src="assets/img/service/service-img-1-5.jpg" alt="Serevice Image">
+                                </a>
+                            </div>
+                            <div class="vs-service__body">
+                                <div class="vs-service__header">
+                                    <div class="vs-service__content">
+                                        <p class="vs-service__subtitle">cleaning  01</p>
+                                        <h2 class="vs-service__title h6"><a href="service.html">Bed & Mattres</a></h2>
+                                    </div>
+                                    <div class="vs-service__icon">
+                                        <img src="assets/img/icon/service-icon-1-4.svg" alt="Service Icon">
+                                    </div>
+                                </div>
+                                <p class="vs-service__text">aweep & mopsd vacuum floor   House Cleaners.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="shape-mockup z-index-n1 d-lg-block d-none" style="left: 0px; top: 0px;"><img src="assets/img/shapes/map-shape-3.png" alt="counter element"></span>
+            <span class="shape-mockup z-index-n1" style="right: 0; top: 0px;"><img src="assets/img/shapes/about-shape-1-2.png" alt="counter element"></span>
+         </section>
+        <!-- Service Area End  -->
+        <!-- Testimonial Area  -->
+         <section class="vs-testi__layout1 space" data-bg-src="assets/img/bg/testi-bg1.jpg">
+            <div class="container">
+                <div class="row gx-60 g-5">
+                    <div class="col-xl-5">
+                        <div class="vs-testi__form1 wow animate__fadeInUp" data-wow-delay="0.45s">
+                            <div class="title-area text-left  wow animate__fadeInUp" data-wow-delay="0.25s">
+                                <span class="sec-subtitle text-white left-shape justify-content-center">HEARING CARE SERVICE</span>
+                                <h2 class="sec-title text-white">Book Your Appointment?</h2>
+                            </div>
+                            <div class="vs-comment-form">
+                                <div id="respond">
+                                    <form action="mail.php" method="post" class="ajax-contact">
+                                        <div class="row gx-3">
+                                            <div class="col-md-6 form-group">
+                                                <input name="fname" type="text" class="form-control" placeholder="Your Name *" required="">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <input name="email" type="email" class="form-control" placeholder="Email *" required="">                                                
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <input name="number" type="number" class="form-control" placeholder="Phone *" required="">
+                                            </div>
+                                            <div class="col-md-6 form-group">
+                                                <select name="subject" id="subject">
+                                                    <option selected="" disabled="" hidden="">Type of service</option>
+                                                    <option value="Web Development">Web Development</option>
+                                                    <option value="UI Design">UI Design</option>
+                                                    <option value="CMS Development">CMS Development</option>
+                                                    <option value="Theme Development">Theme Development</option>
+                                                    <option value="Wordpress Development">Wordpress Development</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12  form-group mt-1 mb-20">
+                                                <textarea name="message" class="form-control" placeholder="your message"
+                                                    required=""></textarea>
+                                            </div>
+                                            <div class="col-12 form-group mb-0">
+                                                <button class="vs-btn" type="submit">see my instant quote</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <p class="form-messages mb-0 mt-3"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7">
+                        <div class="vs-testi__inner">
+                            <div class="title-area text-left wow animate__fadeInUp title-anime animation-style5" data-wow-delay="0.25s">
+                                <span class="sec-subtitle  left-shape justify-content-center title-anime__title">TESTIMONIAL</span>
+                                <h2 class="sec-title text-white title-anime__title">Our Client Are Saying</h2>
+                                <p class="sec-text">When you work with Los Angeles House Cleaners Referal Agency cleaning breathe easy because your home will soon</p>
+                            </div>
+                            <div class="vs-testi__items wow animate__fadeInUp" data-wow-delay="0.35s">
+                                <div class="vs-carousel testi-slider" data-autoplay="true" data-fade="true">
+                                    <div class="vs-testi__style1">
+                                        <span class="vs-testi__icon"><i class="fas fa-quote-left"></i></span>
+                                        <div class="vs-testi__top">
+                                            <div class="vs-testi__image">
+                                                <img class="img1" src="assets/img/testimonial/testi-1-1.png" alt="testimonials">
+                                            </div>
+                                            <div class="vs-testi__author">
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <!-- <i class="fa-solid fa-star"></i> -->
+                                                    <i class="fa-regular fa-star"></i>
+                                                </div>
+                                                <h3 class="vs-testi__title">rodja hartmann</h3>
+                                            </div>
+                                        </div>
+                                        <div class="vs-testi__content">
+                                            <p class="vs-testi__text">
+                                                “ When you work with Los Angeles House Cleaners Refal Agen cleaning room breathe easy because your 
+                                                home will soon When yowork with Angeles House Cleaners Referal Agency cleaning breathe ”
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-testi__style1">
+                                        <span class="vs-testi__icon"><i class="fas fa-quote-left"></i></span>
+                                        <div class="vs-testi__top">
+                                            <div class="vs-testi__image">
+                                                <img class="img1" src="assets/img/testimonial/testi-1-1.png" alt="testimonials">
+                                            </div>
+                                            <div class="vs-testi__author">
+                                                <div class="star-rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <!-- <i class="fa-regular fa-star"></i> -->
+                                                </div>
+                                                <h3 class="vs-testi__title">alaxander pall</h3>
+                                            </div>
+                                        </div>
+                                        <div class="vs-testi__content">
+                                            <p class="vs-testi__text">
+                                                “ When you work with Los Angeles House Cleaners Refal Agen cleaning room breathe easy because your 
+                                                home will soon When yowork with Angeles House Cleaners Referal Agency cleaning breathe ”
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="custom-arraw wow animate__fadeInUp" data-wow-delay="0.45s">
+                                <div class="icon-arraw slick-prev" data-slick-prev=".testi-slider">
+                                    <button class="icon-btn2">
+                                        <img src="assets/img/icon/arraw-right.svg" alt="icon">
+                                    </button>
+                                </div>
+                                <div class="icon-arraw slick-next" data-slick-next=".testi-slider">
+                                    <button class="icon-btn2">
+                                        <img src="assets/img/icon/arraw-left.svg " alt="icon">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="common-line shape-mockup d-none d-xxl-block" style="top: -7px;">
+                <img src="assets/img/shapes/line-shep.png" alt="shapes">
+            </div>
+         </section>
+        <!-- Testimonial Area End  -->
+         <!-- About Area  -->
+         <section class="about-layout1 bg-linear space">
+            <div class="container">
+                <div class="row gx-60 g-5 justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="img-box1 style2 wow animate__fadeInUp" data-wow-delay="0.55s">
+                            <div class="img-icon">
+                                <img src="assets/img/icon/about-icon1.svg" alt="icon">
+                                <span class="icon-shep">
+                                    <img src="assets/img/shapes/about-icon-shape1.png" alt="shape" class="spin">
+                                </span>
+                            </div>
+                            <div class="img1">
+                                <a href="about.html"><img src="assets/img/about/about-img-3-1.jpg" alt="About Image"></a>
+                            </div>
+                            <div class="img2">
+                                <a href="about.html"><img src="assets/img/about/about-img-1-2.jpg" alt="About Image"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="title-area pe-0 title-anime animation-style2">
+                            <span class="sec-subtitle left-shape justify-content-center title-anime__title">ASKED QUESTIONS</span>
+                            <h2 class="sec-title title-anime__title">General Frequently <span class="title-highlight">Asked</span> Questions</h2>
+                          </div>
+                        <div class="accordion accordion-style1" id="faqVersion1">
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">1. Comprehensive Hearing Assessment</button>
+                              </div>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqVersion1">
+                                <div class="accordion-body">
+                                  <p>give your home a fresh new look and feel that you especially after a long day 
+                                    of work. our deep clean will help bring your property back up to scratch
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  2. NYC home cleaning company
+                                </button>
+                              </div>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqVersion1">
+                                <div class="accordion-body">
+                                    <p>give your home a fresh new look and feel that you especially after a long day 
+                                        of work. our deep clean will help bring your property back up to scratch
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    3. 100% secure online payments
+                                </button>
+                              </div>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqVersion1">
+                                <div class="accordion-body">
+                                    <p>give your home a fresh new look and feel that you especially after a long day 
+                                        of work. our deep clean will help bring your property back up to scratch
+                                    </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <div class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  4. Fast, same day booking confirmation
+                                </button>
+                              </div>
+                              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqVersion1">
+                                <div class="accordion-body">
+                                  <p>Yes, despite the removal of Government Feed-in Tariff, installs have been forecast to
+                                    continue at the current rate and even increase in 2025.</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="shape-mockup z-index-n1 d-lg-block d-none" style="left: 0px; top: 0px;"><img src="assets/img/shapes/map-shape-3.png" alt="counter element"></span>
+            <span class="shape-mockup z-index-n1" style="right: 0; top: 0px;"><img src="assets/img/shapes/about-shape-1-2.png" alt="counter element"></span>
+            <span class="shape-mockup" style="right: 0; bottom: 0px;"><img src="assets/img/shapes/map-shape-1.png" alt="counter element"></span>
+         </section>
+        <!-- About Area End -->
+        <div class="sponsor space-mobile">
+            <div class="container text-center">
+              <div class="row vs-carousel" data-slide-show="5" data-md-slide-show="3" data-sm-slide-show="3" data-xs-slide-show="2" data-autoplay="true">
+                <div class="col-auto sponsor__item wow animate__fadeInUp" data-wow-delay="0.35s">
+                  <img src="assets/img/brand/brand-2-1.png" alt="Brand">
+                </div>
+                <div class="col-auto sponsor__item wow animate__fadeInUp" data-wow-delay="0.45s">
+                  <img src="assets/img/brand/brand-2-2.png" alt="Brand">
+                </div>
+                <div class="col-auto sponsor__item wow animate__fadeInUp" data-wow-delay="0.55s">
+                  <img src="assets/img/brand/brand-2-3.png" alt="Brand">
+                </div>
+                <div class="col-auto sponsor__item wow animate__fadeInUp" data-wow-delay="0.65s">
+                  <img src="assets/img/brand/brand-2-4.png" alt="Brand">
+                </div>
+                <div class="col-auto sponsor__item wow animate__fadeInUp" data-wow-delay="0.75s">
+                  <img src="assets/img/brand/brand-2-5.png" alt="Brand">
+                </div>
+                <div class="col-auto sponsor__item wow animate__fadeInUp" data-wow-delay="0.45s">
+                    <img src="assets/img/brand/brand-2-2.png" alt="Brand">
+                </div>
+              </div>
+            </div>
+        </div>
+  <!--********************************
+			End Main Content
+	******************************** -->
+ 
+    <!--==============================
+			Footer Area
+	==============================-->
+    <footer class="footer-wrapper  footer-layout1">
+        <div class="widget-area position-relative" data-bg-src="assets/img/bg/footer-bg-1-1.jpg">
+            <div class="container">
+                <div class="row g-4 justify-content-xl-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="widget footer-widget">
+                            <div class="vs-widget-about">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/hearing-care-logo-white.svg" alt="Hearing Care"></a>
+                                </div>
+                                <p class="footer-text">
+                                    Professional audiometry services dedicated to improving your hearing health and quality of life.
+                                </p>
+                                <div class="contact-box">
+                                    <span class="icon"><img src="assets/img/icon/call-icon.svg" alt="icon"></span>
+                                    <div class="contact-content">
+
+                                        <h6 class="contact-title"><a href="tel:+61752234444">(07) 5223 4444</a></h6>
+                                        <p class="contact-text">Call Us Today</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="social-style1">
+                                    <span class="social-title">Follow On :</span>
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-6 ">
+                        <div class="widget widget_categories  footer-widget">
+                            <h3 class="widget_title">Useful Links</h3>
+                            <ul>
+                                <li><a href="contact.html">Help Centre</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="service.html">Our Services</a></li>
+                                <li><a href="service-details.html">Hearing Assessments</a></li>
+                                <li><a href="service-details.html">Hearing Aid Fittings</a></li>
+                                <li><a href="service-details.html">Tinnitus Management</a></li>
+                                <li><a href="service-details.html">Hearing Protection</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Why Choose Us</h3>
+                            <div class="footer-highlights">
+                                <div class="vs-carousel" data-slide-show="1" data-autoplay="true" data-fade="true" data-speed="3000">
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Locally Owned</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Independent Clinic</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Qualified Audiometrist</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Modern Hearing Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="common-line shape-mockup d-none d-xxl-block" style="top: -7px;">
+                <img src="assets/img/shapes/line-shep.png" alt="shapes">
+            </div>
+        </div>
+        <div class="copyright-wrap" style="background-color: #E4F25A;">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <p class="copyright-text" style="color: #36556C;"><i class="fal fa-copyright"></i> Copyright 2025 - <a href="index.html" style="color: #36556C;">Hearing Care</a> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- Scroll To Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <span class="progress-circle">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40"></circle>
+                    <circle class="progress" cx="50" cy="50" r="40"></circle>
+                </svg>
+                <span class="progress-percentage" id="progressPercentage">0%</span>
+        </span>
+      </button>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!--==============================
+        All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- imagesloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    
+    <!-- Gsap -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- ScrollTrigger -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- Gsap ScrollTo Plugin -->
+    <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+    <!-- Split Text -->
+    <script src="assets/js/SplitText.js"></script>
+    <!-- lenis -->
+    <script src="assets/js/lenis.min.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+.package-style1{
+    background-color: #063136;
+    border: 2px solid $theme-color;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    .package-top{
+        background-color: $secondary-color;
+        border-bottom: 10px solid $theme-color;
+        border-radius: 18px 18px 40px 40px;
+        padding: 35px 35px 12px 35px;
+        transition: all 0.5s ease;
+    }
+    .package-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+    .title-area{
+        margin-bottom: 0;
+        
+    }
+    .package-text{
+        margin-bottom: 0;
+    }
+    .package-name{
+        font-size: 26px;
+        color: $white-color;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        line-height: 140%;
+        transition: all 0.5s ease;
+    }
+    .package-text{
+        text-transform: uppercase;
+        color: $theme-color;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+    .icon-btn3{
+        border-color: $theme-color;
+        .icon{
+            width: 72px;
+            height: 72px;
+            line-height: 72px;
+            background-color: $theme-color;
+        }
+        &:hover{
+            border-color: $title-color;
+            .icon{
+                background-color: $title-color;
+            }
+        }
+    } 
+    .package-price{
+        font-size: 45px;
+        color: $white-color;
+        font-weight: 600;
+        line-height: 122%;
+        font-family: $title-font;
+        margin-bottom: 0;
+        .duration{
+            font-size: 15px;
+            font-weight: 700;
+            color: $text-color2;
+            transition: all 0.5s ease;
+        }
+    }
+    .list-style1{
+        position: relative;
+        padding: 35px 40px 32px 40px;
+        border-bottom: 1px solid #2A5053;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            bottom: 2px;
+            background-color: #2A5053;
+        }
+    }
+    .package-bottom{
+        padding: 20px 40px 70px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .save-price{
+            color: #67B846;
+            display: inline-flex;
+            font-size: 20px;
+            text-transform: capitalize;
+            font-weight: 500;
+            strong{
+                color: $white-color;
+                margin-left: 5px;
+                font-weight: 600;
+            }
+        }
+    }
+    .price-btn{
+        position: absolute;
+        bottom: -30px;
+        left: 42px;
+    }
+    .vs-btn2{
+        text-transform: capitalize;
+        border: 2px solid #65B047;
+        padding: 2px 4px 2px 24px;
+        background: rgb(23,167,191);
+        background: linear-gradient(85deg, rgba(23,167,191,1) 0%, rgba(103,184,70,1) 72%);
+        i{
+            width: 48px;
+            height: 48px;
+        }
+        &:hover{
+            color: $title-color;
+            border-color: $theme-color;
+            i{
+                color: $title-color;
+                background-color: $white-color;
+            }
+        }
+    }
+
+    &:hover{
+        border-color: #67B846;
+        .package-top{
+            background-color: $theme-color;
+            border-color: #67B846;
+        }
+        .icon-btn3{
+            border-color: $title-color;
+            .icon{
+                background-color: $title-color;
+            }
+        }
+        .package-price{
+            .duration{
+                color: $white-color;
+            }
+        }
+        .package-name{
+            color: $white-color;
+        }
+    }
+}
+.package-layout1{
+    position: relative;
+}
+
+.list-style1{
+    ul{
+        li{
+            color: $text-color2;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 16px;
+            line-height: 160%;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@include xs{
+    .package-style1{
+        .package-name{
+            font-size: 20px;
+        }
+    } 
+}

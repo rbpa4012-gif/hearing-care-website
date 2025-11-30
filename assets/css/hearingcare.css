@@ -1,0 +1,455 @@
+/*==============================
+  Hearing Care Custom Styles
+  Brand Colour System & Overrides
+==============================*/
+
+/* Brand Colour Variables */
+:root {
+  --hc-cream: #FCF9F0;   /* ~40% main background areas */
+  --hc-deep:  #36556C;   /* ~30% secondary backgrounds / sections */
+  --hc-lime:  #E4F25A;   /* ~20% hero, primary buttons, highlights, titles */
+  --hc-sky:   #509ED8;   /* ~10% nav underlines, icons, subtle accents */
+  --hc-text:  #1E2A33;   /* body text on light */
+  --hc-text-inverse: #FFFFFF; /* text on deep backgrounds */
+}
+
+/* Base Overrides */
+body {
+  color: var(--hc-text);
+  background: var(--hc-cream);
+}
+
+/* Header & Navigation */
+.header,
+.site-nav,
+.vs-menu-wrapper,
+.sticky-wrapper.active .main-menu {
+  background: var(--hc-cream) !important;
+}
+
+.main-menu > ul > li > a {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.main-menu > ul > li > a:hover,
+.main-menu > ul > li.active > a,
+.main-menu > ul > li > a[aria-current="page"] {
+  border-bottom-color: var(--hc-sky);
+  color: var(--hc-deep);
+}
+
+/* Mobile Menu */
+.vs-mobile-menu ul li a:hover {
+  color: var(--hc-lime);
+}
+
+/* Buttons & CTAs */
+.btn-primary,
+.vs-btn.style1,
+.cta-primary,
+button[type="submit"] {
+  background: var(--hc-lime) !important;
+  color: #223 !important;
+  border-color: var(--hc-lime) !important;
+}
+
+.btn-primary:hover,
+.vs-btn.style1:hover,
+.cta-primary:hover,
+button[type="submit"]:hover {
+  filter: brightness(0.95);
+  background: var(--hc-lime) !important;
+}
+
+.btn-secondary,
+.vs-btn.style2 {
+  background: var(--hc-deep) !important;
+  color: var(--hc-text-inverse) !important;
+  border-color: var(--hc-deep) !important;
+}
+
+/* Header CTA Button */
+.header-cta-btn {
+  background: var(--hc-lime);
+  color: #223;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.header-cta-btn:hover {
+  filter: brightness(0.95);
+  transform: translateY(-2px);
+}
+
+/* Sections */
+.section--deep,
+.vs-hero-wrapper.deep-bg,
+.why-choose-section,
+.footer-wrapper {
+  background: var(--hc-deep) !important;
+  color: var(--hc-text-inverse);
+}
+
+.section--light,
+.vs-hero-wrapper.light-bg {
+  background: var(--hc-cream) !important;
+  color: var(--hc-text);
+}
+
+.section--deep h1,
+.section--deep h2,
+.section--deep h3,
+.section--deep h4,
+.section--deep h5,
+.section--deep h6 {
+  color: var(--hc-text-inverse);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title,
+.sec-title {
+  color: var(--hc-deep);
+}
+
+.highlight,
+.text-lime {
+  color: var(--hc-lime);
+}
+
+/* Icons & Decorative Elements */
+.icon,
+.vs-icon,
+.divider,
+.nav-underline,
+.feature-icon {
+  color: var(--hc-sky);
+}
+
+.icon-box:hover .icon,
+.service-card:hover .icon {
+  color: var(--hc-lime);
+}
+
+/* Footer */
+.footer-wrapper {
+  background: var(--hc-deep);
+  color: var(--hc-text-inverse);
+}
+
+.footer-wrapper a {
+  color: var(--hc-lime);
+}
+
+.footer-wrapper a:hover {
+  color: var(--hc-text-inverse);
+}
+
+/* Cards & Features */
+.service-card,
+.feature-box,
+.info-card {
+  background: #fff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover,
+.feature-box:hover {
+  box-shadow: 0 10px 30px rgba(54, 85, 108, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Forms */
+.form-control,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  border-color: #ddd;
+  color: var(--hc-text);
+}
+
+.form-control:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--hc-sky);
+  box-shadow: 0 0 0 0.2rem rgba(80, 158, 216, 0.15);
+}
+
+/* Testimonials */
+.testimonial-slider {
+  background: #fff;
+}
+
+.testimonial-card {
+  border-left: 4px solid var(--hc-lime);
+}
+
+/* Hero Section */
+.vs-hero-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(54, 85, 108, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: var(--hc-text-inverse);
+}
+
+.hero-content h1 {
+  color: var(--hc-text-inverse);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+/* Why Choose Us Section */
+.why-choose-section {
+  padding: 80px 0;
+}
+
+.why-choose-card {
+  text-align: center;
+  padding: 30px;
+}
+
+.why-choose-card h3 {
+  color: var(--hc-lime);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.why-choose-card p {
+  color: var(--hc-text-inverse);
+  line-height: 1.6;
+}
+
+/* Services Teaser */
+.services-teaser-section {
+  padding: 80px 0;
+}
+
+.service-teaser-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.service-teaser-card:hover {
+  box-shadow: 0 10px 30px rgba(54, 85, 108, 0.15);
+  transform: translateY(-5px);
+}
+
+.service-teaser-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.service-teaser-content {
+  padding: 30px;
+}
+
+.service-teaser-content h3 {
+  color: var(--hc-deep);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.service-teaser-content p {
+  color: var(--hc-text);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Brand Band */
+.brand-band {
+  background: var(--hc-cream);
+  border-top: 3px solid var(--hc-sky);
+  border-bottom: 3px solid var(--hc-sky);
+  padding: 60px 0;
+}
+
+.brand-band h2 {
+  color: var(--hc-lime);
+}
+
+/* Accessibility Notice */
+.accessibility-notice {
+  background: #f8f9fa;
+  padding: 15px;
+  border-left: 4px solid var(--hc-sky);
+  margin: 20px 0;
+  font-size: 0.95rem;
+  color: var(--hc-text);
+}
+
+/* Service Details Pages */
+.service-details-hero {
+  background: var(--hc-deep);
+  color: var(--hc-text-inverse);
+  padding: 100px 0 60px;
+}
+
+.service-details-hero h1 {
+  color: var(--hc-text-inverse);
+  margin-bottom: 20px;
+}
+
+.service-includes {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 30px 0;
+}
+
+.service-includes h3 {
+  color: var(--hc-deep);
+  margin-bottom: 20px;
+}
+
+.service-includes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-includes ul li {
+  padding: 10px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.service-includes ul li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--hc-lime);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Medical Notice */
+.medical-notice {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.medical-notice strong {
+  color: #856404;
+}
+
+/* Booking Form */
+.booking-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form .form-group {
+  margin-bottom: 20px;
+}
+
+.booking-form label {
+  font-weight: 600;
+  color: var(--hc-deep);
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Contact Info Cards */
+.contact-info-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-info-card .icon {
+  font-size: 2.5rem;
+  color: var(--hc-sky);
+  margin-bottom: 15px;
+}
+
+.contact-info-card h3 {
+  color: var(--hc-deep);
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .header-cta-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .why-choose-section {
+    padding: 60px 0;
+  }
+
+  .services-teaser-section {
+    padding: 60px 0;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .header-cta-btn,
+  .vs-btn,
+  .preloader,
+  .vs-menu-toggle {
+    display: none;
+  }
+}

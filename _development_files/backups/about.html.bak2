@@ -1,0 +1,597 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>About Us - Hearing Care | Independent Audiology Practice</title>
+    <meta name="author" content="Hearing Care">
+    <meta name="description" content="Learn about Hearing Care, led by Linda Whittaker, a dedicated audiology practice providing personalised hearing solutions with ethical practices and unbiased recommendations.">
+    <meta name="keywords" content="hearing care, audiology, Linda Whittaker, independent audiologist, hearing solutions, Gold Coast">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--==============================
+	  Google Fonts
+	============================== --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animate js -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Responsive Typography -->
+    <style>
+        /* Content width constraint */
+        .about-content-container {
+            max-width: 950px !important;
+            margin: 0 auto !important;
+        }
+
+        /* Button with circular icon */
+        .btn-with-circle-icon {
+            position: relative;
+            padding: 18px 90px 18px 40px !important;
+            overflow: visible !important;
+            border: none !important;
+            transition: all 0.3s ease;
+            background-color: #E4F25A !important;
+            color: #36556C !important;
+        }
+
+        .btn-with-circle-icon::before,
+        .btn-with-circle-icon::after {
+            display: none !important;
+        }
+
+        .btn-with-circle-icon .circle-icon {
+            position: absolute;
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 56px;
+            height: 56px;
+            background-color: #509ED8 !important;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .btn-with-circle-icon .circle-icon::before,
+        .btn-with-circle-icon .circle-icon::after {
+            display: none !important;
+        }
+
+        .btn-with-circle-icon .circle-icon i {
+            color: #ffffff !important;
+            font-size: 1.4rem;
+            margin-left: 2px;
+        }
+
+        .btn-with-circle-icon:hover {
+            background-color: #E4F25A !important;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(228, 242, 90, 0.4);
+        }
+
+        .btn-with-circle-icon:hover .circle-icon {
+            background-color: #3d8bc4 !important;
+            transform: translateY(-50%) translateX(5px);
+        }
+
+        /* Mobile devices (up to 576px) */
+        @media (max-width: 575.98px) {
+            .about-page-title { font-size: 2.5rem !important; }
+            .about-section-title { font-size: 2rem !important; }
+            .about-large-title { font-size: 2.2rem !important; }
+            .about-body-text { font-size: 14px !important; }
+            .about-subtitle { font-size: 0.9rem !important; }
+            .breadcumb-wrapper { padding: 60px 0 !important; }
+            .about-content-container { max-width: 100% !important; padding: 0 15px !important; }
+        }
+
+        /* Tablets (576px to 767.98px) */
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .about-page-title { font-size: 3rem !important; }
+            .about-section-title { font-size: 2.5rem !important; }
+            .about-large-title { font-size: 2.5rem !important; }
+            .about-body-text { font-size: 15px !important; }
+            .about-subtitle { font-size: 1rem !important; }
+            .breadcumb-wrapper { padding: 80px 0 !important; }
+            .about-content-container { max-width: 100% !important; padding: 0 15px !important; }
+        }
+
+        /* Small laptops (768px to 991.98px) */
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .about-page-title { font-size: 3.5rem !important; }
+            .about-section-title { font-size: 3rem !important; }
+            .about-large-title { font-size: 3rem !important; }
+            .about-body-text { font-size: 16px !important; }
+            .about-subtitle { font-size: 1.1rem !important; }
+            .breadcumb-wrapper { padding: 100px 0 !important; }
+        }
+
+        /* Desktops (992px and up) - default sizes */
+        @media (min-width: 992px) {
+            .about-page-title { font-size: 4rem !important; }
+            .about-section-title { font-size: 3.5rem !important; }
+            .about-large-title { font-size: 3rem !important; }
+            .about-body-text { font-size: 16px !important; }
+            .about-subtitle { font-size: 1.2rem !important; }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+
+    <!--==============================
+	Preloader
+	==============================-->
+    <div class="preloader">
+        <button class="vs-btn preloaderCls">Cancel Preloader </button>
+        <div class="preloader-inner">
+        <img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care">
+        <span class="loader"></span>
+        <p class="preloader-text">Hearing Care is loading</p>
+        </div>
+    </div>
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area text-center">
+            <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care"></a>
+            </div>
+            <div class="vs-mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="service.html">Hearing Services</a>
+                        <ul class="sub-menu">
+                            <li><a href="service.html">All Services</a></li>
+                            <li><a href="service-details.html">Hearing Aid Fittings and Adjustments</a></li>
+                            <li><a href="service-details.html">Hearing Protection</a></li>
+                            <li><a href="service-details.html">Tinnitus Management</a></li>
+                            <li><a href="service-details.html">Comprehensive Hearing Assessments for Adults</a></li>
+                            <li><a href="service-details.html">Screening Tests</a></li>
+                            <li><a href="service-details.html">Hearing Aid Repairs and Maintenance</a></li>
+                            <li><a href="service-details.html">Custom Earplugs</a></li>
+                            <li><a href="service-details.html">Workplace Hearing Tests</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="booking.html">Book an Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Popup Search Box
+    ============================== -->
+    <div class="popup-search-box d-none d-lg-block  ">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+        <input type="text" class="border-theme" placeholder="What are you looking for">
+        <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+    <!--==============================
+    Header Area
+    ==============================-->
+    <header class="vs-header header-layout1">
+        <div class="header-top">
+            <div class="main-container2">
+                <div class="row justify-content-md-between justify-content-center align-items-center">
+                    <div class="col-auto d-md-block d-none">
+                        <div class="header-links">
+                            <ul>
+                                <li><i class="far fa-envelope"></i><a href="mailto:info@hearingcare.au">info@hearingcare.au</a></li>
+                                <li class="d-lg-inline d-none"><i class="far fa-clock"></i>Monday - Friday 8:30 AM - 4:30 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-style1">
+                            <span class="social-title">Follow Us On :</span>
+                            <div class="social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="sticky-active">
+                <div class="menu-area">
+                    <div class="main-container2">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care" width="250" height="40">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <nav class="main-menu menu-style1 d-none d-lg-block">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="service.html">Hearing Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="service.html">All Services</a></li>
+                                                <li><a href="service-details.html">Hearing Aid Fittings and Adjustments</a></li>
+                                                <li><a href="service-details.html">Hearing Protection</a></li>
+                                                <li><a href="service-details.html">Tinnitus Management</a></li>
+                                                <li><a href="service-details.html">Comprehensive Hearing Assessments for Adults</a></li>
+                                                <li><a href="service-details.html">Screening Tests</a></li>
+                                                <li><a href="service-details.html">Hearing Aid Repairs and Maintenance</a></li>
+                                                <li><a href="service-details.html">Custom Earplugs</a></li>
+                                                <li><a href="service-details.html">Workplace Hearing Tests</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                        <li>
+                                            <a href="booking.html">Book an Appointment</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-auto d-lg-none">
+                                <button class="vs-menu-toggle d-inline-block">
+                                    <i class="fal fa-bars"></i>
+                               </button>
+                            </div>
+                            <div class="col-auto d-lg-block d-none">
+                                <div class="header-inner">
+                                    <div class="header-icons">
+                                        <button class="searchBoxTggler"><i class="fal fa-search"></i></button>
+                                        <a class="icon-btn" href="#"><i class="fa-solid fa-phone"></i></a>
+                                    </div>
+                                    <div class="contact-content">
+                                        <p class="contact-text" style="color: #509ED8;">Call Us Today</p>
+                                        <h6 class="contact-title"><a href="tel:+61752234444" style="color: #509ED8;">(07) 5223 4444</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--********************************
+			Start Main Content
+	******************************** -->
+ 
+        <!--==============================
+        Breadcumb
+        ============================== -->
+        <div class="breadcumb-wrapper" style="background-color: #36556C; padding: 120px 0;">
+            <div class="container z-index-common">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title" style="color: #ffffff;">About <span style="color: #E4F25A;">Us</span></h1>
+                </div>
+                <div class="breadcumb-menu-wrap">
+                    <ul class="breadcumb-menu">
+                        <li><a href="index.html" style="color: #ffffff;">Home</a></li>
+                        <li style="color: #E4F25A;">about us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Our Company Section -->
+        <section class="space" style="background-color: #FAF3E9;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="about-content-container">
+                            <div class="text-center mb-5 wow animate__fadeInUp" data-wow-delay="0.25s">
+                                <h1 class="sec-title about-page-title" style="font-weight: 700; color: #1a1a1a; margin-bottom: 3rem;">Our Company</h1>
+                            </div>
+
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.35s">
+                                <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 2rem; font-weight: 400;">
+                                    Hearing Care, led by Linda Whittaker, is a dedicated audiology practice providing personalised hearing solutions. We pride ourselves on offering transparent, client-focused services with ethical practices and unbiased recommendations.
+                                </p>
+
+                                <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 2rem; font-weight: 400;">
+                                    With years of industry experience, our team delivers professional hearing assessments, tailored solutions, and ongoing support that respects our clients' unique needs and circumstances. We understand that hearing care is deeply personal, which is why we take the time to listen and develop relationships built on trust.
+                                </p>
+
+                                <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 0; font-weight: 400;">
+                                    At Hearing Care, we combine cutting-edge technology with compassionate service to enhance our clients' quality of life through better hearing. Our affordable, efficient approach ensures that quality hearing solutions are accessible to everyone, including retirees and pension recipients.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Vision Section -->
+        <section class="space" style="background-color: #405D6F;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="about-content-container">
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.25s">
+                                <h2 class="sec-title about-page-title" style="font-weight: 700; color: #ffffff; margin-bottom: 2rem;">Our Vision</h2>
+                                <p class="about-body-text" style="line-height: 1.8; color: #ffffff; margin-bottom: 0; font-weight: 400;">
+                                    At Hearing Care we aim to empower mature adults with the gift of clear hearing through ethical care, innovative solutions, and genuine relationships that enhance their connection to the world around them.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Expertise Section -->
+        <section class="space" style="background-color: #FAF3E9;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="about-content-container">
+                            <div class="text-center mb-4 wow animate__fadeInUp" data-wow-delay="0.25s">
+                                <p class="about-subtitle" style="color: #509ED8; font-weight: 500; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Local Expertise</p>
+                                <h2 class="sec-title about-section-title" style="font-weight: 700; color: #1a1a1a; line-height: 1.2; margin-bottom: 2rem;">Experience The Difference Of Independent Hearing Care</h2>
+                            </div>
+
+                            <div class="wow animate__fadeInUp" data-wow-delay="0.35s">
+                                <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 3rem; font-weight: 400;">
+                                    As an independent practice, we're dedicated exclusively to addressing your individual hearing requirements, providing personalised solutions that improve your daily life. Learn how our professional expertise and complete support system can restore your connection to the sounds that matter most.
+                                </p>
+
+                                <div class="text-center">
+                                    <a class="btn-with-circle-icon" href="contact.html" style="border-radius: 50px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 600;">
+                                        Book An Appointment
+                                        <span class="circle-icon">
+                                            <i class="far fa-long-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Linda Whittaker Bio Section -->
+        <section class="space" style="background-color: #ffffff;">
+            <div class="container">
+                <div class="row justify-content-center align-items-center gx-60">
+                    <div class="col-lg-5 mb-4 mb-lg-0">
+                        <div class="wow animate__fadeInUp" data-wow-delay="0.25s">
+                            <div style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                                <img src="assets/img/about/linda-whittaker.png" alt="Linda Whittaker - Audiometrist" style="width: 100%; height: auto; display: block;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="wow animate__fadeInUp" data-wow-delay="0.35s">
+                            <p class="about-subtitle" style="color: #509ED8; font-weight: 500; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">Meet Our Founder</p>
+                            <h2 class="sec-title about-large-title" style="font-weight: 700; color: #1a1a1a; margin-bottom: 2rem;">Linda Whittaker</h2>
+                            <p class="about-subtitle" style="color: #509ED8; font-weight: 600; margin-bottom: 2rem; text-transform: uppercase;">Qualified Audiometrist</p>
+
+                            <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 1.5rem;">
+                                Linda Whittaker is a dedicated audiometrist with [X years] of experience in providing exceptional hearing care services. Her commitment to ethical practices and client-focused care has made Hearing Care a trusted name in the community.
+                            </p>
+
+                            <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 1.5rem;">
+                                [Add Linda's qualifications, certifications, and professional background here]
+                            </p>
+
+                            <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 1.5rem;">
+                                [Add information about Linda's approach to patient care, philosophy, or what drives her passion for audiology]
+                            </p>
+
+                            <p class="about-body-text" style="line-height: 1.8; color: #1a1a1a; margin-bottom: 0;">
+                                Linda believes in building lasting relationships with her clients, taking the time to understand their unique needs and providing tailored solutions that improve their quality of life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Area End -->
+   
+    <!--********************************
+			End Main Content
+	******************************** -->
+ 
+    <!--==============================
+			Footer Area
+	==============================-->
+    <footer class="footer-wrapper  footer-layout1">
+        <div class="widget-area position-relative" data-bg-src="assets/img/bg/footer-bg-1-1.jpg">
+            <div class="container">
+                <div class="row g-4 justify-content-xl-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="widget footer-widget">
+                            <div class="vs-widget-about">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/hearing-care-logo-white.svg" alt="Hearing Care"></a>
+                                </div>
+                                <p class="footer-text">
+                                    Professional audiometry services dedicated to improving your hearing health and quality of life.
+                                </p>
+                                <div class="contact-box">
+                                    <span class="icon"><img src="assets/img/icon/call-icon.svg" alt="icon"></span>
+                                    <div class="contact-content">
+
+                                        <h6 class="contact-title"><a href="tel:+61752234444">(07) 5223 4444</a></h6>
+                                        <p class="contact-text">Call Us Today</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="social-style1">
+                                    <span class="social-title">Follow On :</span>
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-6 ">
+                        <div class="widget widget_categories  footer-widget">
+                            <h3 class="widget_title">Useful Links</h3>
+                            <ul>
+                                <li><a href="contact.html">Help Centre</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="service.html">Our Services</a></li>
+                                <li><a href="service-details.html">Hearing Assessments</a></li>
+                                <li><a href="service-details.html">Hearing Aid Fittings</a></li>
+                                <li><a href="service-details.html">Tinnitus Management</a></li>
+                                <li><a href="service-details.html">Hearing Protection</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Why Choose Us</h3>
+                            <div class="footer-highlights">
+                                <div class="vs-carousel" data-slide-show="1" data-autoplay="true" data-fade="true" data-speed="3000">
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Locally Owned</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Independent Clinic</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Qualified Audiometrist</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Modern Hearing Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="common-line shape-mockup d-none d-xxl-block" style="top: -7px;">
+                <img src="assets/img/shapes/line-shep.png" alt="shapes">
+            </div>
+        </div>
+        <div class="copyright-wrap" style="background-color: #E4F25A;">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <p class="copyright-text" style="color: #36556C;"><i class="fal fa-copyright"></i> Copyright 2025 - <a href="index.html" style="color: #36556C;">Hearing Care</a> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- Scroll To Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <span class="progress-circle">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40"></circle>
+                    <circle class="progress" cx="50" cy="50" r="40"></circle>
+                </svg>
+                <span class="progress-percentage" id="progressPercentage">0%</span>
+        </span>
+      </button>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!--==============================
+        All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- imagesloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- Gsap -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- ScrollTrigger -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- Gsap ScrollTo Plugin -->
+    <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+    <!-- Split Text -->
+    <script src="assets/js/SplitText.js"></script>
+    <!-- lenis -->
+    <script src="assets/js/lenis.min.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+   
+
+
+</body>
+
+</html>

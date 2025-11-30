@@ -1,0 +1,459 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cleaning and pool service template | Vecuro | Contact</title>
+    <meta name="author" content="Vecuro">
+    <meta name="description" content="Cleaning and pool Contact template">
+    <meta name="keywords" content="Cleaning and pool Contact template">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!--==============================
+	  Google Fonts
+	============================== --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@400;500;600;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <!-- animate js -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+    <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+
+    <!--********************************
+   		Code Start From Here 
+	******************************** -->
+
+
+
+    <!--==============================
+	Preloader
+	==============================-->
+    <div class="preloader">
+        <button class="vs-btn preloaderCls">Cancel Preloader </button>
+        <div class="preloader-inner">
+        <img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care">
+        <span class="loader"></span>
+        <p class="preloader-text">Hearing Care is loading</p>
+        </div>
+    </div>
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <div class="vs-menu-wrapper">
+        <div class="vs-menu-area text-center">
+            <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care"></a>
+            </div>
+            <div class="vs-mobile-menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li class="menu-item-has-children">
+                        <a href="service.html">Hearing Services</a>
+                        <ul class="sub-menu">
+                            <li><a href="service.html">All Services</a></li>
+                            <li><a href="service-details.html">Hearing Aid Fittings and Adjustments</a></li>
+                            <li><a href="service-details.html">Hearing Protection</a></li>
+                            <li><a href="service-details.html">Tinnitus Management</a></li>
+                            <li><a href="service-details.html">Comprehensive Hearing Assessments for Adults</a></li>
+                            <li><a href="service-details.html">Screening Tests</a></li>
+                            <li><a href="service-details.html">Hearing Aid Repairs and Maintenance</a></li>
+                            <li><a href="service-details.html">Custom Earplugs</a></li>
+                            <li><a href="service-details.html">Workplace Hearing Tests</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="booking.html">Book an Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Popup Search Box
+    ============================== -->
+    <div class="popup-search-box d-none d-lg-block  ">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+        <input type="text" class="border-theme" placeholder="What are you looking for">
+        <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
+    <!--==============================
+    Header Area
+    ==============================-->
+    <header class="vs-header header-layout1">
+        <div class="header-top">
+            <div class="main-container2">
+                <div class="row justify-content-md-between justify-content-center align-items-center">
+                    <div class="col-auto d-md-block d-none">
+                        <div class="header-links">
+                            <ul>
+                                <li><i class="far fa-envelope"></i><a href="mailto:info@hearingcare.au">info@hearingcare.au</a></li>
+                                <li class="d-lg-inline d-none"><i class="far fa-clock"></i>Monday - Friday 8:30 AM - 4:30 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-style1">
+                            <span class="social-title">Follow Us On :</span>
+                            <div class="social-icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sticky-wrapper">
+            <div class="sticky-active">
+                <div class="menu-area">
+                    <div class="main-container2">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="assets/img/hearing-care-logo-header.svg" alt="Hearing Care" width="250" height="40">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <nav class="main-menu menu-style1 d-none d-lg-block">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="service.html">Service</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="service.html">Service</a></li>
+                                                <li><a href="service-details.html">Service Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="blog.html">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-auto d-lg-none">
+                                <button class="vs-menu-toggle d-inline-block">
+                                    <i class="fal fa-bars"></i>                                           
+                               </button>
+                            </div>
+                            <div class="col-auto d-lg-block d-none">
+                                <div class="header-inner">
+                                    <div class="header-icons">
+                                        <button class="searchBoxTggler"><i class="fal fa-search"></i></button>
+                                        <a class="icon-btn" href="#"><i class="fa-solid fa-phone"></i></a>
+                                    </div>
+                                    <div class="contact-content">
+                                        <p class="contact-text" style="color: #509ED8;">Call Us Today</p>
+                                        <h6 class="contact-title"><a href="tel:+61752234444" style="color: #509ED8;">(07) 5223 4444</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--==============================
+    Breadcumb
+    ============================== -->
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/breadcumb/breadcumb-bg.png">
+        <div class="container z-index-common">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">contace <span>us</span></h1>
+            </div>
+            <div class="breadcumb-menu-wrap">
+                <ul class="breadcumb-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    contact Area
+    ==============================-->
+    <section class="contact-layout1 space">
+        <div class="container">
+            <div class="row g-5 gx-60">
+                <div class="col-xl-5">
+                    <div class="contact-style1">
+                        <div class="title-area text-left  wow animate__fadeInUp animation-style2" data-wow-delay="0.25s">
+                            <span class="sec-subtitle left-shape justify-content-center title-anime__title">CONTACT US</span>
+                            <h2 class="sec-title title-anime__title">Get in touch with us</h2>
+                        </div>
+                        <div class="contact-inner wow animate__fadeInUp" data-wow-delay="0.35s">
+                              <div class="contact-address">
+                                <span>Address:</span>
+                                <a href="#" class="address">roda wQ 966 munich Express 70Germany, park lan, TX 7859</a>
+                              </div>
+                              <div class="contact-box">
+                                <span class="contact-icon">
+                                    <i class="fa-light fa-phone-volume"></i>
+                                </span>
+                                <div class="contact-content">
+                                    <h6 class="contact-title">Customer Service :</h6>
+                                    <p class="contact-text">+9-555-888-679,  +9-666-888-679</p>
+                                </div>
+                              </div>
+                              <div class="contact-box">
+                                <span class="contact-icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </span>
+                                <div class="contact-content">
+                                    <h6 class="contact-title">careers  :</h6>
+                                    <p class="contact-text">exemple@info.com</p>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="social-style2 wow animate__fadeInUp" data-wow-delay="0.45s">
+                            <span class="social-title">Follow Us :</span>
+                            <div class="social-icon">
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="form-style2 wow animate__fadeInUp" data-wow-delay="0.55s">
+                        <div class="vs-comment-form">
+                            <div id="respond">
+                                <form action="mail.php" method="post" class="ajax-contact">
+                                    <div class="row gx-3">
+                                        <div class="col-md-6 form-group">
+                                            <input name="fname" type="text" class="form-control" placeholder="Fast Name *" required="">
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input name="lname" type="text" class="form-control" placeholder="Lase Name *" required="">
+                                        </div>
+                                        
+                                        <div class="col-md-6 form-group">
+                                            <input name="number" type="number" class="form-control" placeholder="Your Phone *" required="">
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input name="email" type="email" class="form-control" placeholder="Your Email *" required="">                                                
+                                        </div>
+                                        <div class="col-12  form-group mt-1 mb-30">
+                                            <textarea name="message" class="form-control" placeholder="your message ..."
+                                                required=""></textarea>
+                                        </div>
+                                        <div class="col-12 form-group mb-0">
+                                            <button class="vs-btn" type="submit">Send message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="form-messages mb-0 mt-3"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==============================
+    map Area
+    ==============================-->
+    <div class="map-layout1">
+        <div class="ratio ratio-21x9" style="height:550px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163720.11965853968!2d8.496481908353967!3d50.121347879150306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd096f477096c5%3A0x422435029b0c600!2sFrankfurt%2C%20Germany!5e0!3m2!1sen!2sbd!4v1665403058628!5m2!1sen!2sbd" width="800" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <!--==============================
+			Footer Area
+	==============================-->
+    <footer class="footer-wrapper  footer-layout1">
+        <div class="widget-area position-relative" data-bg-src="assets/img/bg/footer-bg-1-1.jpg">
+            <div class="container">
+                <div class="row g-4 justify-content-xl-center">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="widget footer-widget">
+                            <div class="vs-widget-about">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/img/hearing-care-logo-white.svg" alt="Hearing Care"></a>
+                                </div>
+                                <p class="footer-text">
+                                    Professional audiometry services dedicated to improving your hearing health and quality of life.
+                                </p>
+                                <div class="contact-box">
+                                    <span class="icon"><img src="assets/img/icon/call-icon.svg" alt="icon"></span>
+                                    <div class="contact-content">
+
+                                        <h6 class="contact-title"><a href="tel:+61752234444">(07) 5223 4444</a></h6>
+                                        <p class="contact-text">Call Us Today</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="social-style1">
+                                    <span class="social-title">Follow On :</span>
+                                    <div class="social-icon">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-6 ">
+                        <div class="widget widget_categories  footer-widget">
+                            <h3 class="widget_title">Useful Links</h3>
+                            <ul>
+                                <li><a href="contact.html">Help Centre</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="service.html">Our Services</a></li>
+                                <li><a href="service-details.html">Hearing Assessments</a></li>
+                                <li><a href="service-details.html">Hearing Aid Fittings</a></li>
+                                <li><a href="service-details.html">Tinnitus Management</a></li>
+                                <li><a href="service-details.html">Hearing Protection</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="widget footer-widget">
+                            <h3 class="widget_title">Why Choose Us</h3>
+                            <div class="footer-highlights">
+                                <div class="vs-carousel" data-slide-show="1" data-autoplay="true" data-fade="true" data-speed="3000">
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Locally Owned</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Independent Clinic</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Qualified Audiometrist</p>
+                                    </div>
+                                    <div class="highlight-item" style="background-color: #E4F25A; border-radius: 15px; padding: 20px; margin: 10px 0;">
+                                        <p style="color: #36556C; font-weight: 600; margin: 0; text-align: center;">Modern Hearing Technology</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="common-line shape-mockup d-none d-xxl-block" style="top: -7px;">
+                <img src="assets/img/shapes/line-shep.png" alt="shapes">
+            </div>
+        </div>
+        <div class="copyright-wrap" style="background-color: #E4F25A;">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <p class="copyright-text" style="color: #36556C;"><i class="fal fa-copyright"></i> Copyright 2025 - <a href="index.html" style="color: #36556C;">Hearing Care</a> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- Scroll To Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <span class="progress-circle">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40"></circle>
+                    <circle class="progress" cx="50" cy="50" r="40"></circle>
+                </svg>
+                <span class="progress-percentage" id="progressPercentage">0%</span>
+        </span>
+      </button>
+
+    <!--********************************
+			Code End  Here 
+	******************************** -->
+
+    <!--==============================
+        All Js File
+    ============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- imagesloaded -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- Gsap -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- ScrollTrigger -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- Gsap ScrollTo Plugin -->
+    <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+    <!-- Split Text -->
+    <script src="assets/js/SplitText.js"></script>
+    <!-- lenis -->
+    <script src="assets/js/lenis.min.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>

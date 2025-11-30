@@ -1,0 +1,262 @@
+.vs-hero{
+    &__layout1{
+        .bubbles{
+            width: 40%;
+        }
+    }
+    &__content{
+        padding: 55px 0px 80px 45px;
+        position: relative;
+        border-left: 10px solid $theme-color;
+        z-index: 1;
+        margin-left: 240px;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 40%;
+            height: 10px;
+            left: 0;
+            top: 0;
+            background-color: $theme-color;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            width: 65%;
+            height: 10px;
+            left: 0;
+            bottom: 0;
+            background-color: $theme-color;
+        }
+        .vs-btn2{
+            text-transform: uppercase;
+            border: 2px solid #65B047;
+            padding: 2px 5px 2px 28px;
+            background: rgb(23,167,191);
+            background: linear-gradient(85deg, rgba(23,167,191,1) 0%, rgba(103,184,70,1) 72%);
+            &:hover{
+                color: $title-color;
+                border-color: $theme-color;
+                i{
+                    color: $title-color;
+                    background-color: $white-color;
+                }
+            }
+        }
+    }
+    &__subtitle{
+        color: $theme-color;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: $title-font;
+        text-transform: uppercase;
+        display: inline-flex;
+        align-items: end;
+        margin-bottom: 15px;
+        .icon{
+            margin-right: 12px;
+        }
+    }
+    &__title{
+        font-size: 80px;
+        color: $white-color;
+        text-transform: uppercase;
+        line-height: 94%;
+        margin-bottom: 30px;
+        &--highlight{
+            color: $theme-color;
+        }
+    }
+    &__item2{
+        padding: 115px 0;
+        &.style2{
+            padding: 240px 0;
+            border-bottom: 5px solid $theme-color;
+        }
+    }
+    &__text{
+        font-size: 18px;
+        font-weight: 500;
+        color: $text-color2;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+    }
+    .hero-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .play-btn > i{
+        width: 64px;
+        height: 64px;
+        line-height: 64px;
+        font-size: 18px;
+    }
+}
+.vs-hero__layout1{
+    position: relative;
+    .main-img{
+        position: relative;
+        .slide-item{
+            position: relative;
+            clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 122%);
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: rgb(3,39,44);
+            background: linear-gradient(94deg, rgba(3,39,44,0.8267682072829132) 0%, rgba(6,58,65,0) 100%);
+            z-index: 1;
+        }
+        }
+        img{
+            width: 100%;
+            max-height: 820px;
+            // clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 128%);
+            position: relative;
+            
+        }
+    }
+    .vs-hero__item{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background: rgb(3,39,44);
+            background: linear-gradient(94deg, rgba(3,39,44,0.8267682072829132) 0%, rgba(6,58,65,0) 100%);
+        }
+        .dot-shape{
+            position: absolute;
+            width: 30px;
+            height: 10px;
+            left: 66%;
+            bottom: 0;
+            background-color: $theme-color;
+            border-radius: 30px;
+            display: block;
+        }
+    }
+    
+}
+.vs-hero-style2{
+    position: relative;
+    .vs-hero__title{
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+    .vs-hero__content{
+        padding: 0;
+        border: none;
+        margin-left: 0;
+        &::after{
+            display: none;
+        }
+        &::before{
+            display: none;
+        }
+    }
+    .main-img{
+        img{
+            clip-path: none;
+        }
+    }
+    .bottom-shape{
+        display: block;
+        img{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 2500px){
+    .main-container3{
+        margin: 0 auto;
+    }
+}
+@media (min-width: 2200px) and (max-width: 2499px){
+    .vs-hero__content {
+        margin-left: 165px;
+    }
+}
+@media (max-width: 1780px){
+    .vs-hero__content {
+        margin-left: 40px;
+    }
+}
+
+@include xll{
+    .vs-hero__title{
+        font-size: 52px;
+    }
+}
+@include lg{
+    .vs-hero__title {
+        font-size: 32px;
+        line-height: 130%;
+    }
+    .vs-hero__item2.style2 {
+        padding: 120px 0 140px;
+    }
+    .vs-hero-style2{
+        .vs-hero__title{
+            font-size: 52px;
+        }
+    }
+}
+@include md{
+    .vs-hero__layout1{
+        .vs-hero__content{
+            margin: 80px 0 40px;
+        }
+        .vs-hero__title{
+            font-size: 65px;
+        }
+    }
+    .vs-hero__layout1{
+        .vs-hero__image{
+            .main-img img {
+                width: 100%;
+                max-height: 510px;
+                clip-path: none;
+                position: relative;
+            }
+        }
+    }
+    .vs-hero__item2.style2 {
+        padding: 80px 0 140px;
+    }
+
+    .vs-hero-style2{
+        .vs-hero__item2 {
+            padding: 80px 0 100px;
+            .vs-hero__content{
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+    }
+}
+@include sm{
+    .vs-hero__layout1{
+        .vs-hero__title{
+            font-size: 42px;
+        }
+    }
+}
+
+@include xs{
+    .vs-hero__image .main-img {
+        clip-path: none;
+    }
+    .vs-hero__layout1 .main-img .slide-item {
+        clip-path: unset;
+    }
+}

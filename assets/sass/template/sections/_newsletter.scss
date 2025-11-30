@@ -1,0 +1,115 @@
+.newsletter-style1{
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(23,167,191);
+    background: linear-gradient(266deg, rgba(23,167,191,1) 0%, rgba(16,156,61,1) 100%);
+    padding: 50px 50px 80px 50px;
+    position: relative;
+    overflow: hidden;
+    .newsletter-title{
+        color: $white-color;
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+    .newsletter-text{
+        color: $white-color;
+    }
+    .newsletter-text{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .title-area {
+        margin-bottom: 30px;
+    }
+    .newsletter-form {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.search-btn{
+    position: relative;
+    .form-control{
+    height: 70px;
+    border-radius: 50px;
+    padding: 0 45px 0 30px;
+      &::placeholder{
+        text-transform: capitalize;
+        color: #97969A;
+      }
+    }
+    .vs-btn{
+        position: absolute;
+        line-height: 160%;
+        right: 5px;
+        top: 50%;
+        padding: 16px 50px;
+        font-size: 16px;
+        font-weight: 700;
+        max-height: 65px;
+        text-transform: uppercase;
+        transform: translateY(-50%);
+        background-color: $theme-color;
+        &:hover{
+            color: $white-color;
+            background-color: $title-color;
+            border-color: $title-color;
+        }
+    }
+  }
+
+.footer-layout1 .newsletter {
+    position: absolute;
+    width: 100%;
+    top: -32%;
+}
+
+@include ml{
+    .footer-layout1{
+        .newsletter {
+            position: relative;
+            top: auto;
+            padding-bottom: 80px;
+        }
+        .extra-space-top {
+            padding-top: 120px;
+        }
+    } 
+}
+@include md{
+    .footer-layout1{
+        .newsletter {
+            padding-bottom: 40px;
+        }
+        .extra-space-top {
+            padding-top: 80px;
+        }
+    }
+    .search-btn .vs-btn {
+        padding: 16px 30px;
+    }
+}
+
+@include xs{
+    .search-btn{
+        .form-control{
+            height: 55px;
+            &::placeholder{
+                text-transform: capitalize;
+                color: #97969A;
+                font-size: 12px;
+    
+            }
+        }
+        .vs-btn {
+            position: relative;
+            transform: unset;
+            color: $title-color;
+            background-color: $white-color;
+            margin-top: 15px;
+        }
+    }
+}
+

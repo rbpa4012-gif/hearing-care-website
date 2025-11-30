@@ -1,0 +1,260 @@
+.vs-team{
+    &__layout1{
+        position: relative;
+    }
+    &__style1{
+        position: relative;
+        &:hover{
+            .vs-team__img{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    &__social--media{
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        padding: 60px 20px 25px;
+        position: absolute;
+        background-color: $theme-color;
+        clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 100%);
+        a{
+            display: block;
+            color: $white-color;
+            text-align: center;
+            transition: all 0.4s ease;
+            &:hover{
+                color: $title-color;
+            }
+            &:not(:last-child){
+                margin-bottom: 12px;
+            }
+        }
+    }
+    &__img{
+        position: relative;
+        margin-bottom: 22px;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #124349;
+        border-bottom: 5px solid $theme-color;
+        width: 100%;
+        text-align: center;
+        img{
+            transform: scale(1);
+            transition: all 0.5s ease;
+        }
+    }
+    &__content{
+        text-align: center;
+    }
+    &__title{
+        font-size: 22px;
+        text-transform: uppercase;
+        line-height: 145%;
+        margin-bottom: 4px;
+        a{
+            color: $title-color;
+            &:hover{
+                color: $theme-color;
+            }
+        }
+    }
+    &__subtitle{
+        color: $theme-color;
+        font-weight: 600;
+        font-family: $title-font;
+        margin-bottom: 0;
+        line-height: initial;
+    }
+    
+}
+.team-details{
+    .team-img{
+        background-color: $title-color;
+        border-radius: 15px;
+        overflow: hidden;
+        border-bottom: 5px solid $theme-color;
+    }
+    .team-top {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        border-bottom: 1px solid $border-color;
+        position: relative;
+        margin-bottom: 45px;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+            width: 100%;
+            height: 1px;
+            background-color: $border-color;
+            z-index: -1;
+        }
+    }
+    .title-area{
+        margin-bottom: 0;
+        .team-title{
+            text-transform: capitalize;
+            margin-bottom: 0;
+            font-size: 36px;
+            line-height: 128%;
+        }
+        .team-degi{
+            font-size: 16px;
+            text-transform: capitalize;
+            color: $theme-color;
+            font-weight: 600;
+            font-family: $title-font;
+        }
+    }
+    .social-style1{
+        background-color: $theme-color;
+        padding: 25px 20px 25px 70px;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+        a{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background-color: $white-color;
+            color: $theme-color;
+        }
+    }
+    .team-text{
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .sec-title{
+        font-size: 36px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 128%;
+        .title-highlight{
+            display: inline-block;
+            color: $theme-color;
+        }
+    }
+    .icon-area{
+        display: flex;
+        align-items: center;
+        .icon{
+            margin-right: 15px;
+        }
+    }
+    .icon-box{
+        .team-title{
+            font-size: 22px;
+            font-weight: 600;
+        }
+        .title-area{
+            border-bottom: 2px solid $border-color;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.team-contact-list {
+    padding-left: 0;
+    margin-bottom: 30px;
+    li{
+        position: relative;
+        color: var(--title-color);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+        display: flex;
+        &:not(:last-child){
+            margin-bottom: 8px;
+        }
+    }
+    sub {
+        display: inline-block;
+        width: 210px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 10px;
+        font-family: $title-font;
+        color: $title-color;
+        text-transform: uppercase;
+    }
+    span{
+        font-weight: 500;
+        font-size: 16px;
+        color: $text-color;
+    }
+}
+
+
+.progress-box {
+    margin: 0 0 25px 0;
+    &__number,
+    &__title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1;
+      font-family: var(--title-font);
+      color: $title-color;
+      display: inline-block;
+      margin: 0 0 11px 0;
+    }
+  
+    &__number {
+      float: right;
+      margin: 5px 0 0 0;
+    }
+  
+    &__progress {
+      height: 10px;
+      border-radius: 30px;
+      background-color: #CDD8D9;
+    }
+  
+    &__bar {
+      height: 100%;
+      background-color: $theme-color;
+      box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+      border-radius: 30px;
+      background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+      background-size: 1rem 1rem;
+    }
+    &.style2 {
+      .progress-box {
+        &__title,
+        &__number {
+          color: var(--body-color);
+          font-weight: 400;
+          font-family: var(--body-font);
+        }
+        &__progress,
+        &__bar {
+          border-radius: 0;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+}
+
+
+@include xs{
+    .team-details{
+        .title-area {
+            margin-bottom: 30px;
+        }
+        .team-top {
+            display: block;
+             text-align: center;
+             border: none;
+             &::after{
+                display: none;
+             }
+         }
+    } 
+}

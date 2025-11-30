@@ -1,0 +1,103 @@
+.vs-pagination {
+  margin-bottom: 0px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  span,
+  a {
+    width: 56px;
+    height: 56px;
+    line-height: 53px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: $body-font;
+    color: $text-color;
+    display: inline-block;
+    border: 2px solid $border-color;
+    border-radius: 5px;
+    background-color: #E6EBEC;
+    
+    &.active,
+      &:hover{
+        color: $white-color;
+        border-color: $theme-color;
+        background-color: $theme-color;
+      }
+      i{
+        font-size: 16px;
+        font-weight: 900;
+      }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 3px;
+    list-style-type: none;
+  }
+
+}
+
+.post-pagination {
+  padding: 30px 0 0 0;
+}
+
+.post-pagi-box {
+  display: flex;
+  align-items: center;
+
+  > a {
+    color: var(--body-color);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--title-font);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    i {
+      color: $theme-color;
+      font-weight: 700;
+    }
+
+    &:hover {
+      color: $theme-color;
+    }
+  }
+
+  img {
+    width: 80px;
+    margin-right: 25px;
+  }
+
+  &.next {
+    flex-direction: row-reverse;
+
+    img {
+      margin-right: 0;
+      margin-left: 25px;
+    }
+  }
+}
+
+@include sm {
+  .vs-pagination {
+    text-align: center;
+    a {
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 14px;
+    }
+
+    li {
+      margin: 0 2px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.error-area{
+    &__text{
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-family: $body-font;
+        line-height: 132%;
+        margin-bottom: 18px;
+        span{
+            color: $theme-color;
+        }
+    }
+    &__img{
+        display: block;
+        margin-bottom: 55px;
+    }
+}
