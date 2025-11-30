@@ -11,8 +11,7 @@ Australian hearing healthcare website requiring strict compliance with AHPRA, TG
 
 Before generating ANY content (blog articles, website copy, social media posts, marketing materials), you MUST follow all compliance rules below.
 
-For detailed examples and compliant language patterns, reference:
-`_development_files/docs/SEO_Content_Implementation_Guide.md`
+For detailed examples and compliant language patterns, follow the compliance rules below.
 
 ---
 
@@ -190,14 +189,6 @@ All blog articles should follow this structure:
 
 ---
 
-## PROJECT FILES
-
-- **Compliance Guide:** `_development_files/docs/SEO_Content_Implementation_Guide.md`
-- **SEO Audit Report:** `_development_files/docs/CQ_Audiology_SEO_Audit_Report.md`
-- **FAQ Documents:** `_development_files/docs/*.md`
-
----
-
 ## QUICK REFERENCE - COMPLIANT ALTERNATIVES
 
 | Don't Write | Write Instead |
@@ -235,13 +226,5 @@ Use these compliant phrases:
 
 ---
 
-## ADDITIONAL RESOURCES
-
-- **Australian Hearing Health Compliance (Consolidated):** `~/.claude/australian_hearing_health_compliance/compliance_framework.json`
-- **Compliance Checker Tool:** `~/.claude/orchestrator/compliance_checker.py`
-- **Orchestrator (Central Hub):** `~/.claude/orchestrator/`
-
----
-
-*Last Updated: November 2025*
+*Last Updated: December 2025*
 *Australian Hearing Health Compliance v3.0 (22 Rules)*
